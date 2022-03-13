@@ -1,11 +1,13 @@
 import './style.css';
-import Image from './react.png';
+import IMAGE from './react.png';
+import FLOWER from './flower.svg';
 
 const App = () => {
   return (
     <>
       <h1>Hello Worlds</h1>
-      <img src={Image} alt='' />
+      <img src={IMAGE} alt='' />
+      <img src={FLOWER} alt='' />
     </>
   );
 };
